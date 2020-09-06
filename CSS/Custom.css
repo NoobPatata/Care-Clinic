@@ -1,0 +1,137 @@
+.bg-green {
+    background-color: #2F4F4F;
+    color: white;
+}
+.bg-custom {
+    background-color: whitesmoke;
+    color: #2F4F4F;
+}
+.hr-white{
+    background-color: white;
+    border-width: 0px;
+    height: 2px;   
+}
+.hr-green{
+    background-color: #2F4F4F;
+    border-width: 0px;
+    height: 2px;   
+}
+.row{
+    margin: 0px;
+}
+.buffer{
+    grid-area: buffer;
+    background-color: white;
+    height: 50px;
+}
+.button-l{
+    border: 2px solid #2F4F4F;
+    color: #2F4F4F;
+    background-color: transparent;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    outline:none;
+    text-decoration: none;
+}
+.button-l:hover {
+  background-color: #2F4F4F;
+  color: white;
+  text-decoration: none;
+
+}
+a:hover {
+    text-decoration: none;
+}
+.dropdown-item:hover {
+    background-color: #2F4F4F ;
+    color: white;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel{
+    max-width: 1200px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+}
+
+#titleimage{
+    max-height: 250px;
+    width: 100%;
+}
+.title{
+    background-color:rgba(245, 245, 245, 0.8);
+    width: 98%;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* doctor page */
+.img-max{
+    max-height: 300px;
+}
+/* services */
+.servicesimage{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.navbar-nav.dropdown-item:hover {
+    background-color: #2F4F4F ;
+    color: white;
+}
+.form-control{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #2F4F4F;
+    background-color: transparent ;
+    outline:none;
+    margin-right: 100px;
+    border-radius: 0px;
+}
+
+.form-control:focus{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+th {
+    background-color: #2F4F4F;
+    color: white;
+} 
+/* page number for table */
+.pagination > li > a
+{
+    background-color: white;
+    color: #2F4F4F;
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: white;
+    background-color: #487E7E;
+    border-color: #2F4F4F;
+}
+.pagination > .active > a{
+    color: white;
+    background-color: #2F4F4F !Important;
+    border: solid 1px #2F4F4F !Important;
+}
+.pagination > .active > a:hover{
+    background-color: #2F4F4F !Important;
+    border: solid 1px #2F4F4F;
+}
